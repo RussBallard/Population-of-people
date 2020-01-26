@@ -58,34 +58,54 @@
   ],
   "rooms": [
     {
-      "room_101": 3
+      "number_of_rooms": 3,
+      "persons": [],
+      "is_fullness": false
     },
     {
-      "room_102": 3
+      "number_of_rooms": 3,
+      "persons": [],
+      "is_fullness": false
     },
     {
-      "room_103": 1
+      "number_of_rooms": 1,
+      "persons": [],
+      "is_fullness": false
     },
     {
-      "room_104": 1
+      "number_of_rooms": 1,
+      "persons": [],
+      "is_fullness": false
     },
     {
-      "room_105": 2
+      "number_of_rooms": 2,
+      "persons": [],
+      "is_fullness": false
     },
     {
-      "room_201": 4
+      "number_of_rooms": 4,
+      "persons": [],
+      "is_fullness": false
     },
     {
-      "room_202": 1
+      "number_of_rooms": 1,
+      "persons": [],
+      "is_fullness": false
     },
     {
-      "room_203": 1
+      "number_of_rooms": 1,
+      "persons": [],
+      "is_fullness": false
     },
     {
-      "room_204": 2
+      "number_of_rooms": 2,
+      "persons": [],
+      "is_fullness": false
     },
     {
-      "room_205": 2
+      "number_of_rooms": 2,
+      "persons": [],
+      "is_fullness": false
     }
   ]
 }
