@@ -52,13 +52,14 @@ with psycopg2.connect(dbname='postgres', user='admin', password='admin', host='l
                 # Дополнил изначальную задачу и создал возможность добавлять новых людей в апартаменты
                 while True:
                     valid_preferences = ('Гей', 'Лесби', 'Нетолерантный натурал', 'Толерантный натурал')
+                    valid_sex = ('Мужской', 'Женский')
 
                     name = input('Введите имя заселяемого: ')
-                    sex = input('Введите пол заселяемого (М или Ж): ').capitalize()[0]
+                    sex = input('Введите пол заселяемого (Мужской или Женский): ').capitalize()
                     preferences = input('Введите сексуальную ориентацию заселяемого (Гей, Лесби, Нетолерантный натурал '
                                         'или Толерантный натурал): ').capitalize()
 
-                    if preferences not in valid_preferences or not sex.startswith(('М', 'Ж')):
+                    if preferences not in valid_preferences or sex not in valid_sex:
                         print('Заполните анкету корректно!')
                         continue
 
